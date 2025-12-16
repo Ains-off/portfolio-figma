@@ -1,16 +1,22 @@
 
 .bot{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    margin-right: 10px;
 }
 .chat-container {
-  width: 600px;
+  width: 300px;
+  height: 300px;
   background: #ffffff;
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.08);
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  position: fixed;
+  margin-bottom: 10px;
+  bottom: 0;
+  
 }
 
 .chat-header {
@@ -32,8 +38,7 @@
   padding: 16px;
   flex: 1;
   overflow-y: auto;
-  max-width: 600px;
-  max-height: 400px;
+  max-width: 300px;
 }
 
 .message {
