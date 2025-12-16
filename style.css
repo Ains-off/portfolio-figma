@@ -23,6 +23,19 @@
   padding: 16px;
   border-bottom: 1px solid #eee;
 }
+.chat-header i {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  font-size: 18px;
+  color: #777;
+}
+
+.chat-header i:hover {
+  cursor: pointer;
+  color: #ff0000;
+}
+
 
 .chat-header h3 {
   margin: 0;

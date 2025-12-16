@@ -23,7 +23,7 @@
         <div class="text-xl font-black"><a href="index.html">Abdel</a></div>
         <nav class="flex items-center gap-4">
             <a href="mailto:khenenouabdelw@gmail.com" class="px-6 text-base font-semibold hover:text-gray-700 transition">Me Contacter</a>
-            <a target="_blank" href="/fichiers/Cv-Abdelouahab_KHENENOU.pdf" download class="bg-black text-white px-4 py-2.5 rounded-lg text-lg font-semibold hover:bg-gray-800 transition">
+            <a target="_blank" href="fichiers/Cv-Abdelouahab_KHENENOU.pdf" download class="bg-black text-white px-4 py-2.5 rounded-lg text-lg font-semibold hover:bg-gray-800 transition">
                 Télécharger mon CV
             </a>
         </nav>
@@ -44,8 +44,9 @@
     </section>
 
     <div class="bot">
-        <div class="chat-container">
+        <div class="chat-container" id="chat-container">
             <div class="chat-header">
+                <i class="bi bi-x-lg" class="close" onclick="closeBox()"></i>
                 <h3>Assistant du portfolio</h3>
                 <span>Posez vos questions (attention le bot peut faire des erreurs)</span>
             </div>

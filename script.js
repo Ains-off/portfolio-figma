@@ -63,3 +63,6 @@ document.addEventListener('DOMContentLoaded', function() {
     var typed = new Typed('.typed-text', options);
 });
 
+function closeBox() {
+    document.getElementById("chat-container").style.display = "none";
+  }
